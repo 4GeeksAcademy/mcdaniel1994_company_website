@@ -1,8 +1,8 @@
 {
   "name": "trackflow-tailwind",
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./dist/styles.css --minify",
-    "watch": "tailwindcss -i ./src/input.css -o ./dist/styles.css --watch"
+    "build": "tailwindcss -i ./src/input.css -o ../apps/track_flow_website/styles.css --minify",
+    "watch": "tailwindcss -i ./src/input.css -o ../apps/track_flow_website/styles.css --watch"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.0"
